@@ -1,5 +1,5 @@
 from pyscript import when
-from ultralytics import hub, YOLO
+from ultralytics import hub
 
 @when("click", "button")
 def hello():
